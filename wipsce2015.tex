@@ -113,7 +113,8 @@ influenced by Technocamps activities. In 2010, based on empirical data
 regarding its effect on school children's attitudes towards computing
 -- as well as their teachers -- Swansea University was awarded
 \pounds 3.9 million funding towards a \pounds 6 million four-year project
-(with the remaining \pounds 2.1 million generated through match funding)
+(with the remaining \pounds 2.1 million
+generated through University match funding)
 by the Welsh Government under the EU's European Social
 Fund (ESF) Convergence Programme to run Technocamps as a pan-Wales
 project with regional hubs at
@@ -122,9 +123,9 @@ South Wales Glamorgan.
 (Technocamps hubs have subsequently been set up at most of the remaining
 major Universities in Wales, specifically Cardiff University,
 Cardiff Metropolitan University, and Glynd\^wr University Wrexham.)
-Though focusing on the children, Technocamps also provides "Technoteach"
+Though focusing on the children, Technocamps also provides ``Technoteach"
 events aimed at up-skilling ICT teachers in Welsh schools.
-Technocamps has provided computing-related activities and resources
+Technocamps has since provided computing-related activities and resources
 for tens of thousands of young people across Wales, as well as interacting
 with hundreds of teachers at hundreds of the nation's schools.
 
@@ -185,7 +186,7 @@ Report~\cite{McKinsey:1997} and the Stevenson
 Report~\cite{Stevenson:1997}.  Both reports concluded that Information
 Technology in UK schools was in a primitive state and in need of
 attention and major investment.  In line with the Stevenson
-Report~\cite{Stevenson:1997}, Computer Studies evolved into a new
+Report, Computer Studies evolved into a new
 subject whose name was coined in that Report: Information and
 Communication Technology (ICT).  Over the decade starting in 1997, the
 UK Government invested over \pounds3.5 billion in ICT in schools
@@ -219,24 +220,98 @@ easily-achieved high results in ICT offer a welcome boost to a
 school's league table position.  Furthermore, as ICT is typically
 presented by schools as their computer science offering, students who
 might otherwise enjoy studying computer science are left with a
-positive distaste for what they believe to be computer science.
+positive distaste for what they are led to believe is computer science.
 
 \subsection{Technocamps at Swansea University}
 As experienced by other Universities,
 the numbers of students enrolling in Computer Science
-at Swansea University increased through the end end
+at Swansea University increased through the end
 of the millenium due to the dot-com boom.
-However, the numbers peaked and was followed by
-a steady five-year decline, dropping more that 40\%,
+However, as depicted in Figure~\ref{fig:numbers},
+\begin{figure}
+  \centering
+  \includegraphics[width=0.9\columnwidth]{images/numbers.png}
+  \caption{Applications to University Computer Science programmes
+           in the UK and Wales, males and females.
+           (Source: UCAS, Universities and Colleges Admissions Service,
+            https://www.ucas.com)}
+  \label{fig:numbers}
+\end{figure}
+the numbers peaked and was followed by
+a steady five-year decline, dropping more than 40\%,
 with the worst effect on the already-dwindling numbers
 of female students.
 Even at its peak, more than a third of students who
 started a computer science degree programme left
 the programme before their second year of study,
+citing a mistaken understanding of the subject
+as their reason for leaving.
 
+In an attempt to address this anomaly,
+the Computer Science Department reached out
+to local secondary school ICT teachers,
+inviting them to meetings at the University,
+and offering to visit schools to discuss
+the subject with the teachers and to give
+motivational talks to students.
+Indeed, the Department was invited every year to
+a number of English schools to present such talks
+to school children making University choices.
+However, interest was more than absence:
+there was even resistance to the Department
+giving talks to their University applicants
+which was typically characterised as merely pitching for students.
+In reality, for reasons explained later
+which did not apply to English teachers,
+teachers in Wales were generally feeling over-burdoned and
+uninterested in exploring any perceptions
+of inadequacy in their curriculum delivery.
+
+As it proved impossible to influence schools and their ICT teachers directly,
+Technocamps was created in 2003 to promote computing amongst their pupils.
+This was a programme of fun and engaging intereactive computational workshops
+taking place on the University campus
+whose ultimate aim was to re-introduce computer science into
+the ICT curriculum by generating the demand from the students.
+Originally run only at Swansea University,
+Technocamps hubs have since been created at most major Universities
+throughout Wales.
+Welsh teachers were happy to bring classes into schools
+as a ``day out'' activity; but they were then faced with
+the prospect of introducing ``Technoclubs'' as lunch-time
+extra-curricular activities in the school.
+With generous help, resources and guidance from Technocamps
+-- along with the fact that the students were generally
+more technically informed and computer-literate than their teachers -- 
+these clubs have flourished, and the impact of Technocamps
+in changing attitudes in Welsh schools regarding ICT and computing
+has been well acknowledged.
+An independent Review~\cite{Wavehill:2015}
+of Technocamps activity in the so-called convergence
+(ie, economically disadvantaged) region of Wales
+(see Figures~\ref{fig:UK} and~\ref{fig:wales})
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\columnwidth]{images/UK.png}
+  \caption{Map of England and Wales}
+  \label{fig:UK}
+\end{figure}
+\begin{figure}
+  \centering
+  \includegraphics[width=0.45\columnwidth]{images/wales.png}
+  \caption{Convergence region of Wales, consisting of 15 out of 21 regions}
+  \label{fig:wales}
+\end{figure}
+carried out for Welsh Government estimates that
+5\% of Welsh secondary students (ie, aged 11-19)
+have engaged with Technocamps through Workshops,
+and that more than a quarter of the secondary schools
+ave created in the region have established Technoclubs.
 
 % taken from TOCE paper, can be adapted to Welsh focus
 \section{School Systems in the UK}\label{sec:schools}
+
+Need to Cite~\cite{Evans:2015}
 
 As reported by Hubweiser et al.~\cite{hubwieser-et-al:2011}, when establishing a
 model for viewing school CS education, it is apparent that there is
@@ -247,8 +322,7 @@ country. Here we describe the context of school education in the UK.
 For historical reasons, the UK does not have a single nationwide
 education system.  The UK is primarily composed of four devolved
 nations: England (population: 53.0 million), Scotland (5.3 million),
-Wales (3.0 million) and Northern Ireland (1.8
-million)\footnote{\url{http://www.ons.gov.uk/ons/guide-method/census/2011/index.html}}.
+/bin/bash: :LL: command not found
 Each nation has its own education system, although they are broadly
 similar in England and Wales.
 
@@ -260,7 +334,14 @@ similar in England and Wales.
 % and A-Levels!
 
 %\subsection{England and Wales}
-Figure~\ref{fig:key-stages} shows the system of five Key Stages (KS)
+Figure~\ref{fig:key-stages}
+\begin{figure}
+  \centering
+  \includegraphics[width=\columnwidth]{images/keystages.png}
+  \caption{Key Stages in the English and Welsh education system}
+  \label{fig:key-stages}
+\end{figure}
+shows the system of five Key Stages (KS)
 used in England and Wales (although KS1 is called Foundation Phase in
 Wales) with compulsory schooling until age 16. All subjects are
 compulsory until the end of Key Stage 3 (KS3) and then students can
@@ -269,23 +350,6 @@ which each lead to GCSE (General Certificate of Secondary Education)
 qualifications. However, while the National Curriculum in England and
 Wales are broadly similar, they are distinct and use different
 terminology.
-
-\begin{figure}
-  \centering
-  \includegraphics[width=0.9\columnwidth]{images/numbers.png}
-  \caption{Applications to University Computer Science programmes
-           in the UK and Wales, males and females.
-           (Source: UCAS, Universities and Colleges Admissions Service,
-            https://www.ucas.com)}
-  \label{fig:numbers}
-\end{figure}
-
-\begin{figure}
-  \centering
-  \includegraphics[width=\columnwidth]{images/keystages.png}
-  \caption{Key Stages in the English and Welsh education system}
-  \label{fig:key-stages}
-\end{figure}
 
 % adjust to be Wales-focused
 There is state provision for education in the UK up to the age of 19,
