@@ -12,6 +12,7 @@
 \sloppy
 \usepackage{paralist}
 \usepackage{url}
+\usepackage[pdftex]{hyperref}
 
 \begin{document}
 %
@@ -134,8 +135,9 @@ Fund (ESF) Convergence
 Programme\footnote{\url{http://wefo.wales.gov.uk/programmes/20072013/convergence/?lang=en}}
 to run Technocamps as a pan-Wales project with regional hubs at the
 Universities of Aberystwyth, Bangor and Glamorgan (now University of
-South Wales)\footnote{Technocamps hubs have subsequently been set up
-at most of the remaining major Universities in Wales, specifically
+South Wales)\footnote{As dicussed in further detail in
+Section~\ref{technocamps}, Technocamps hubs have subsequently been set
+up at most of the remaining major Universities in Wales, specifically
 Cardiff University, Cardiff Metropolitan University, and Glynd\^wr
 University in Wrexham.}  Though focusing on the children, Technocamps
 also provides ``Technoteach'' events aimed at up-skilling ICT teachers
@@ -183,12 +185,15 @@ development of teachers.
 % check this is correct at the end!
 In this paper, we explain the devolved nature of education in the UK
 focusing on Wales with its specific challenges and issues
-(Section~\ref{welshukedu}); describe the backdrop to Technocamps and
-why it was created in the way it was (Section~\ref{compedu}); and
-present data both in support of university intervention as well as the
-positive effect this intervention is having (Section 4).  We finish
-with a consideration of the challenges remaining in Welsh education
-(Section 5).
+(Section~\ref{welshukedu}), particularly related to computing
+(Section~\ref{compedu}; describe the backdrop to Technocamps and why
+it was created in the way it was, presenting data both in support of
+university intervention as well as the positive effect this
+intervention is having (Section~\ref{technocamps}).  We finish with an
+overview of the recent education policy changes in Wales
+(Section~\ref{welshedurefom} and a consideration of the challenges
+remaining in computer science education in Wales
+(Section~\ref{conclusions}).
 
 % taken from TOCE paper, adapted for Welsh focus
 \section{Wales and UK Education}\label{welshukedu}
@@ -222,7 +227,7 @@ communities -- and more specifically its schools and teachers --
 suffer from the perils of isolation. Apart from the south east corner
 (including its capital Cardiff, with a population of c.325,000) and
 the regions bordering England, the rest of the country is formally
-designated by the EU as a so-called ``convergence area'' (see
+designated by the EU as a so-called ``Convergence area'' (see
 Figure~\ref{fig:wales}(a)), meaning its per-capita gross domestic
 product (GDP) is less than 75\% of the EU average.
 
@@ -450,13 +455,13 @@ Wales, as well as the teaching community in Wales.
 %%( This appears later on)
 %An independent
 %review of Technocamps activity in the (socio-economically
-%disadvantaged) convergence area of Wales carried out for Welsh
+%disadvantaged) Convergence area of Wales carried out for Welsh
 %Government estimates that 5\% of Welsh secondary students (ie, aged
 %11-19) have engaged with Technocamps through Workshops, and that more
 %than a quarter of the secondary schools in the region have established
 %Technoclubs~\cite{Wavehill:2015}.
 
-\subsection{The Technocamps Programme}\label{technoeffect}
+\subsection{The Technocamps Programme}\label{technoprogramme}
 
 As indicated above, Wales provides a variety of major challenges
 -- political, geographical, socio-economic -- in reforming its
@@ -578,7 +583,7 @@ Playground Computing programmes.
 Due to its EU funding restrictions during 2011-2014, Technocamps was
 prohibited from providing any support (specifically, resources for
 workshops, teacher sessions, Technoclub support, etc) to schools
-outside of the convergence area -- namely, the eastern region of
+outside of the Convergence area -- namely, the eastern region of
 Wales, including its capital city Cardiff, bordering England (see
 Figure~\ref{fig:wales}(a)). Whilst an unfortunate artefact of the
 funding, a fortuitous side effect of this restriction was that it
@@ -586,7 +591,7 @@ allows for a true assessment of the real impact of Technocamps, as the
 country was invariably divided into two halves: West Wales and the
 Valleys receiving the full Technocamps experience, whilst East Wales
 (including its capital Cardiff) did not.
-(In actual fact, the convergence area encompasses closer to two-thirds
+(In actual fact, the Convergence area encompasses closer to two-thirds
 of Wales, measured both in population and area.)
 
 Cardiff is the primary base of Computing At School (CAS) in Wales;
@@ -603,7 +608,7 @@ In particular, in 2010 we jointly sent out an information pack to every
 secondary school in Wales, following similar initiatives in England and
 Scotland. Technocamps produced all of the packs and posted these out
 to all of the schools; CAS Wales provided the postal costs for sending
-the information packs to the schools outside of the convergence area
+the information packs to the schools outside of the Convergence area
 of Wales (CAS Wales had a grant of c.\pounds100,000 from Welsh
 Government to support the development of the CAS Network of Excellence
 model of teacher-led activity across Wales, supplementing the several
@@ -641,7 +646,7 @@ building a teacher-led community.
 
 In contrast to this,
 an independent review~\cite{Wavehill:2015} of Technocamps activity in
-the (socio-economically disadvantaged) convergence region of Wales
+the (socio-economically disadvantaged) Convergence region of Wales
 carried out for Welsh Government estimates that 5\% of
 its secondary school-aged youths (ie, aged 11-19)
 have engaged with Technocamps through Workshops, and
@@ -651,17 +656,17 @@ Furthermore, the new
 GCSE Computer Science qualifications -- which has patchy uptake in
 Wales due to the lack of curriculum reform -- has now been adopted by
 a large percentage of these schools, whilst schools outside of the
-convergence area (and outside the reach of Technocamps) continue to
+Convergence area (and outside the reach of Technocamps) continue to
 deliver the ICT curriculum.
 
-Although it could not operate within the non-convergence area of
+Although it could not operate within the non-Convergence area of
 Wales, Technocamps promoted all of its extensive on-line resources
-which are freely available to schools outside the convergence area of
+which are freely available to schools outside the Convergence area of
 Wales, and supported the activities of CAS Wales to develop the CAS
 Network of Excellence model of teacher-led school-based activities
 throughout Wales.  However, despite the efforts of CAS Wales, there is
 scarce evidence of even a single active school-based computing club
-that is not inside the convergence area and established due directly
+that is not inside the Convergence area and established due directly
 to Technocamps Workshops and follow-up engagement.
 %
 %(Lack of CAS funding isn't the point that is or can be made here)
@@ -675,7 +680,7 @@ Technocamps Robotics Competition has been open to all schools across
 Wales, promoted across all of Wales through Technocamps and CAS Wales
 networks, and even held on the outskirts of Cardiff in 2013.  However,
 every single one of the 43 teams entered in the 2013 competition held
-near Cardiff travelled in from a convergence area Technoclub formed on
+near Cardiff travelled in from a Convergence area Technoclub formed on
 the back of Technocamps workshops and follow-up engagements with
 Technocamps initiatives. This provides clear evidence that the
 Technocamps model of intense direct engagement through campus-based
@@ -761,7 +766,7 @@ appear at the Houses of Parliament in October 2014, hosted by the
 Chair of the House of Commons Science and Technology Select Committee.
 
 \item
-The impact that Technocamps has had on schools in the convergence area
+The impact that Technocamps has had on schools in the Convergence area
 of Wales has been recognised by the Department for Education and Skills (DfES)
 which has contracted Technocamps to deliver workshops at every
 state-sponsored secondary school throughout the whole country between
@@ -782,7 +787,7 @@ April 2015 and March 2018.
 
 \end{itemize}
 
-\section{Educational Reform in Wales}
+\section{Educational Reform in Wales}\label{welshedurefom}
 
 As noted above, in light of the perceived failings within education in Wales
 there have been a great number of reviews commissioned to identify failures
@@ -992,14 +997,17 @@ identified significant shortcomings of the current curriculum
 arrangements, which essentially remain as devised in 1988 (when it
 shared a national curriculum with England). The report argued that the
 curriculum has become overloaded, complicated and, in many parts,
-outdated. The report identifies four purposes for the curriculum,
-recommending that the entirety of the school curriculum should be
-designed to help all children and young people to become: ambitious,
-capable learners, ready to learn throughout their lives; enterprising,
-creative contributors, ready to play a full part in life and work;
-ethical, informed citizens of Wales and the world; and healthy,
-confident individuals, ready to lead fulfilling lives as valued
-members of society.
+outdated. It identifies four purposes for the curriculum, recommending
+that the entirety of the school curriculum should be designed to help
+all children and young people to become: ambitious, capable learners,
+ready to learn throughout their lives; enterprising, creative
+contributors, ready to play a full part in life and work; ethical,
+informed citizens of Wales and the world; and healthy, confident
+individuals, ready to lead fulfilling lives as valued members of
+society. In some ways, there are a number of similarities to the
+Scottish {\emph{Curriculum for Excellence}}
+model\footnote{\url{http://www.educationscotland.gov.uk/learningandteaching/thecurriculum/}},
+of which Donaldson was also involved.
 
 More specifically for computing education and the role of technology,
 the review identifies three cross-cutting, whole-schools ``collective
@@ -1093,19 +1101,48 @@ embed initial qualification standards in a career long framework.
 
 \section{The Future}\label{conclusions}
 
-What are the top-line messages?
+As we have seen in the previous section, Wales is at the cusp of
+significant educational reform. In the context of  UK-wide demand and
+both educational and economic imperatives for high-value digital
+skills (both to support a digitally-confident and capable citizenry,
+but also for creator skills to support high-tech innovation), the
+challanges of a devolved education system to address the specific
+educational problems are many. With the publication of the 2015
+Donaldson Review, fully supporting the recommendations of the 2013
+Review of the ICT Curriculum, there now exists a framework in Wales for
+rethinking the role of digital competencies and computational skills
+in the education of all young people from early-years through to
+qualifications. Nevertheless, there are significant challenges
+remaining, even if there is clarity around policy; in particularly,
+around wider public perceptions of the disciplines and its inherent
+educational and economic value, but especially around upskilling
+essentially the entire teaching community of Wales. This is a the
+profound and long-term challenge that has to be recognised and
+addressed before we see the type of computer science education that is
+fit for purpose and does not actively dissuade students from
+progressing onto degree-level study or opting for careers in the
+technology profession.
 
-\begin{itemize}
-\item Cusp of reform: Donaldson onwards
-\item Next stage of Technocamps funding
-\item TC+CAS working together on policy front
-\item How to address the lack of teacher engagement and get this
-  cascade model of best practice/PLNs?
-\item UK wide demand and imperatives, but problems for devolved nation
-  implementation
-\item Timescales: response to Donaldson, new Assembly in 2016
-  cf. Scotland's Curriculum for Excellence c.10 years?
-\end{itemize}
+Timescales for change are another key issue; as we have seen in the
+Scottish Curriculum for Excellence model -- first proposed in a 2002
+consultation exercise and then implemented in 2010-2011 -- there is
+significant lag from inception through to implementation, particularly
+when legislative changes are required.
+
+Lead into Technocamps and teacher engagement...?
+
+
+% \begin{itemize}
+% \item Cusp of reform: Donaldson onwards
+% \item Next stage of Technocamps funding
+% \item TC+CAS working together on policy front
+% \item How to address the lack of teacher engagement and get this
+%   cascade model of best practice/PLNs?
+% \item UK wide demand and imperatives, but problems for devolved nation
+%   implementation
+% \item Timescales: response to Donaldson, new Assembly in 2016
+%   cf. Scotland's Curriculum for Excellence c.10 years?
+% \end{itemize}
 
 
 % bib
